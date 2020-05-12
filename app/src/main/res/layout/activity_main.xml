@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="ESC"
+                android:textColor="#ffffff"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="260dp"
+                android:layout_height="55dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:background="#509BF8"
+                android:drawableStart="@drawable/ic_person_black_24dp"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:text="내 사물함"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:id="@+id/mylockerButton"/>
+
+            <Button
+                android:id="@+id/newlockerButton"
+                android:layout_width="260dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="#509BF8"
+                android:drawableStart="@drawable/ic_mode_edit_black_24dp"
+                android:drawableLeft="@drawable/ic_mode_edit_black_24dp"
+                android:text="신규신청"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/nfcButton"
+                android:layout_width="260dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="#509BF8"
+                android:drawableStart="@drawable/ic_nfc_black_24dp"
+                android:drawableLeft="@drawable/ic_nfc_black_24dp"
+                android:text="NFC"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/lockerstatusButton"
+                android:layout_width="260dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="#509BF8"
+                android:drawableStart="@drawable/ic_apps_black_24dp"
+                android:drawableLeft="@drawable/ic_apps_black_24dp"
+                android:text="사물함 현황"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/notice">
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/fragment">
+            </RelativeLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

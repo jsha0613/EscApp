@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="major">
+        <item>----학과 선택----</item>
+        <item>소프트웨어</item>
+        <item>글로벌경영</item>
+        <item>기독교교육</item>
+        <item>신학</item>
+        <item>국어국문</item>
+        <item>영미언어문화</item>
+        <item>유아교육</item>
+        <item>행정</item>
+        <item>도시정보공</item>
+        <item>환경에너지공</item>
+        <item>디지털미디어디자인</item>
+        <item>식품영양</item>
+        <item>정보전기전자공</item>
+        <item>컴퓨터공</item>
+        <item>통계데이터과학</item>
+        <item>관광경영</item>
+        <item>러시아언어문화</item>
+        <item>중국언어문화</item>
+        <item>화장품발명디자인</item>
+        <item>공연예술</item>
+        <item>음악</item>
+    </string-array>
+</resources>
